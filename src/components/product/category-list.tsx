@@ -54,11 +54,11 @@ const CategoryList = ({
           >
             Semua Produk
           </Button>
-
           {categories?.map((category) => (
             <Button
               key={category}
               variant={selectedCategory === category ? "default" : "outline"}
+              className="justify-start w-full capitalize"
               onClick={() => onSelectCategory(category)}
             >
               {category.replace("-", " ")}
