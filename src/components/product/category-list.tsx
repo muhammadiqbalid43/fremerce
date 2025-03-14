@@ -33,7 +33,7 @@ const CategoryList = ({
     return (
       <Card>
         <CardContent className="p-4">
-          <h2 className="mb-4 text-xl font">Kategori</h2>
+          <h2 className="mb-4 text-xl font-bold">Kategori</h2>
           <div className="p-3 text-red-800 bg-red-100 rounded-md">
             Gagal memuat kategori
           </div>
